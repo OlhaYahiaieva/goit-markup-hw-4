@@ -63,9 +63,7 @@ body {
 .page-footer span {
   color: #ffffff;
 }
-.team {
-  background: var(--primary-button-color);
-}
+
 /* цунтрирование элементов */
 .center {
   text-align: center;
