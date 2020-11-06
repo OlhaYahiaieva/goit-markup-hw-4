@@ -1,4 +1,7 @@
 /* site nav */
+.site-nav {
+  margin: 0;
+}
 .site-nav a {
   color: var(--titel-text-color);
 }
@@ -182,7 +185,6 @@
 .list-portfolio li {
   display: flex;
   width: 370px;
-  height: 404px;
 }
 .list-portfolio li:hover {
   border: 1px solid #eeeeee;
@@ -208,6 +210,13 @@
   background-color: var(--primary-button-color);
   font-family: inherit;
   padding: 6px 22px;
+  border-radius: 4px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .button.primery {
   background-color: var(--accent-color);
@@ -236,13 +245,7 @@
   display: block;
   margin: 0;
 }
-/* футер иконки  */
-.icon-button-footer {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.icon-social-footer {
-  fill: var(--primary-wight-color);
-}
+
 /* фурер заголовок */
 .footer-titel {
   font-family: Roboto;
@@ -287,12 +290,12 @@
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
-.icon-smartphon:hover {
-  fill: var(--accent-color);
-}
-address a:hover,
-address a:focus {
+
+.wtapper-address:hover a {
   color: var(--accent-color);
+}
+.wtapper-address:hover svg {
+  fill: var(--accent-color);
 }
 .address {
   color: var(--primary-wight-color);
@@ -333,8 +336,8 @@ address a:focus {
   width: 20px;
   height: 20px;
 }
-.icon-social:hover,
-.icon-social:focus {
+.icon-button:hover svg,
+.icon-button:focus svg {
   fill: var(--primary-wight-color);
 }
 
@@ -377,13 +380,15 @@ address a:focus {
 .list-clients li:focus {
   border: 1px solid #2196f3;
 }
+.link-clients:hover svg,
+.link-clients:focus svg {
+  fill: #2196f3;
+}
+
 .svg-clients {
   fill: #afb1b8;
 }
-.svg-clients:hover,
-.svsvg-clientsg:focus {
-  fill: #2196f3;
-}
+
 /* Оформление иконок logo clients */
 .logo-1 {
   display: flex;
