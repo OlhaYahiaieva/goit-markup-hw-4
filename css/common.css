@@ -187,7 +187,6 @@
   width: 370px;
 }
 .list-portfolio li:hover {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -339,6 +338,12 @@
 .icon-button:hover svg,
 .icon-button:focus svg {
   fill: var(--primary-wight-color);
+}
+.icon-social-footer {
+  fill: var(--primary-wight-color);
+}
+.icon-button-footer {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* сукция clients */
